@@ -10,7 +10,12 @@ const Home = () => {
         <img src='images/logo2.png'></img>
         <p>sustainability made easy </p>
      </div>
-     
+    </div>
+
+    <div className='feature-section'>
+        <div className='cards'>
+            
+        </div>
     </div>
     </>
   )
