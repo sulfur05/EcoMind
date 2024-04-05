@@ -13,8 +13,49 @@
   width: 30px;
 }
 
-.nav{
-  display: flex !important;
-  align-items: center !important;
-  justify-content:space-between !important ;
+.navv{
+  background-color: black !important;
+}
+
+.image{
+  position: absolute;
+}
+
+.hero{
+  position: relative;
+  top: 0px;
+}
+
+/* Hero */
+
+
+.title img{
+  /* height: 80px; */
+  width: 400px;
+}
+
+.title h1{
+  text-align: left;
+  font-size: 7rem;
+}
+
+.container p{
+  text-align: left;
+  /* margin-top: -20px; */
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 5px;
+}
+
+.bgimg{
+  width: 100%;
+  position: absolute;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  position: relative;
+  /* margin-top: 20px; */
 }

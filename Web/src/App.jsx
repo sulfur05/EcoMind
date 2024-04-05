@@ -1,9 +1,9 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
-import { NavBar, Products, Home, Articles, ChatRoom } from './components/index';
-
-
+import {  Products, Home, Articles, ChatRoom } from './components/index';
+// import  from './components/index';
+import NavBar from './components/NavBar/NavBar';
 
 const App=()=>{
 

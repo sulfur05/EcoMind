@@ -11,16 +11,15 @@ import { Link, NavLink } from 'react-router-dom';
 const NavBar = () => {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary navv bg-dark">
+       <Navbar expand="lg" bg="dark" variant="dark" className="navv">
         <Container>
           <Navbar.Brand href="#home">
             <img src='images/logo.png' className='nav-logo' /> {/* Added alt text for accessibility */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto" style={{ alignItems: 'center' }}>
-              <Link to="/" className="nav-link">Home</Link>
-              
+            <Nav className="me-auto">
+              <Link to="/" className="nav-link text-white">Home</Link>
               <NavDropdown title="Articles" id="articles-dropdown">
                 <NavDropdown.Item as={Link} to="/Articles/Food">Food</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/Articles/Home">Home</NavDropdown.Item>
