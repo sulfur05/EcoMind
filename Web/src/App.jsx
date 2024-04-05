@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
 
-import { NavBar,Home, Articles, ChatRoom ,ClothingAndFashion, BeautyAndPersonalCare, HomeAndLifestyle, FoodAndBeverages, TechAndGadgets, BabyAndKids  } from './components/index';
+import {ClothingAndFashion, BeautyAndPersonalCare, HomeAndLifestyle, FoodAndBeverages, TechAndGadgets, BabyAndKids  } from './components/index';
 
 import {  Products, Home, Articles, ChatRoom } from './components/index';
 // import  from './components/index';
