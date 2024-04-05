@@ -5,5 +5,4 @@ const Navbar = () => {
     <div>Articles</div>
   )
 }
-
 export default Navbar;
