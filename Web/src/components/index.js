@@ -6,3 +6,10 @@ export{default as Articles} from './Articles/Articles'
 export {default as Products} from './Products/Products'
 
 export {default as ChatRoom} from './ChatRoom/ChatRoom'
+
+export { default as ClothingAndFashion } from './Products/ClothingAndFashion';
+export { default as BeautyAndPersonalCare } from './Products/BeautyAndPersonalCare';
+export { default as HomeAndLifestyle } from './Products/HomeAndLifestyle';
+export { default as FoodAndBeverages } from './Products/FoodAndBeverages';
+export { default as TechAndGadgets } from './Products/TechAndGadgets';
+export { default as BabyAndKids } from './Products/BabyAndKids';
