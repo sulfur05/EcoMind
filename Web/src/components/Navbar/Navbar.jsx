@@ -1,9 +1,59 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link, NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+
+
+
+const NavBar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <>
+      <Navbar expand="lg" className="bg-body-tertiary navv bg-dark">
+        <Container>
+          <Navbar.Brand href="#home">
+            <img src='images/logo.png' className='nav-logo' /> {/* Added alt text for accessibility */}
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto" style={{ alignItems: 'center' }}>
+              <Link to="/" className="nav-link">Home</Link>
+              
+              <NavDropdown title="Articles" id="articles-dropdown">
+                <NavDropdown.Item as={Link} to="/Articles/Food">Food</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Articles/Home">Home</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Articles/Fashion">Fashion</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Articles/News">News</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Products" id="basic-nav-dropdown">
+                <NavDropdown.Item as={Link} to="/Products/ClothingandFashion">
+                  Clothing and Fashion
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Products/BeautyandPersonalCare">
+                  Beauty and Personal Care
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Products/HomeandLifestyle">
+                  Home and Lifestyle
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Products/FoodandBeverages">
+                  Food and Beverages
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Products/TechandGadgets">
+                  Tech and Gadgets
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Products/BabyandKids">
+                  Baby and Kids
+                </NavDropdown.Item>
+              </NavDropdown>
+              <Link to="/ChatRoom" className="nav-link">Chat Forum</Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
+  );
+};
 
-export default Navbar;
+export default NavBar;
