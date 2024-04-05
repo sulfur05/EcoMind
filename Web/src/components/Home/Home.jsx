@@ -3,7 +3,8 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-    <img src='images/bg2.jpg' className='bgimg'></img>
+    <div className='hero'></div>
+    <img src='images/bg.jpg' className='bgimg'></img>
     <div className='container'>
 
      <div className="title">
@@ -14,7 +15,7 @@ const Home = () => {
 
     <div className='feature-section'>
         <div className='cards'>
-            
+
         </div>
     </div>
     </>

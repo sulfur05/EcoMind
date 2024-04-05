@@ -14,7 +14,7 @@ const NavBar = () => {
        <Navbar expand="lg" bg="dark" variant="dark" className="navv">
         <Container>
           <Navbar.Brand href="#home">
-            <img src='images/logo.png' className='nav-logo' /> {/* Added alt text for accessibility */}
+            <img src='/images/logo.png' className='nav-logo' />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

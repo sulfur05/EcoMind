@@ -1,69 +1,94 @@
+/* app.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
   text-align: center;
 }
 
-.nav-logo{
+.nav-logo {
   width: 30px;
 }
 
-.navv{
+.navv {
   background-color: black !important;
 }
 
-.image{
+.image {
   position: absolute;
 }
 
-.hero{
+.hero {
   position: relative;
   top: 0px;
 }
 
 /* Hero */
 
-
-.title img{
-  /* height: 80px; */
-  width: 400px;
+.title img {
+  width: 400px; /* Adjust for larger screens if needed */
 }
 
-.title h1{
+.title h1 {
   text-align: left;
   font-size: 7rem;
 }
 
-.container p{
+.container p {
   text-align: left;
-  /* margin-top: -20px; */
   font-size: 1.5rem;
   color: white;
   margin-left: 5px;
 }
 
-.bgimg{
+.bgimg {
   width: 100%;
   position: absolute;
 }
 
-.title{
+.title {
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 200px; /* Adjust margin-top for desired hero height */
   position: relative;
-  /* margin-top: 20px; */
+}
+
+.hero {
+  position: fixed;
 }
 
 /* eef6ed */
 
-/*feature section*/
-.feature-section{
+/* Feature section */
+.feature-section {
   background-color: #eef6ed;
   height: 100px;
+  position: relative;
+  margin-top: 300px;
+}
+
+/* Media queries for responsive image scaling */
+@media (max-width: 768px) {
+  .bgimg {
+    height: 500px;
+    width: 390px;
+  }
+
+  .title img {
+    width: 200px;
+    margin-top: -100px;
+  }
+}
+
+/* 5c7051 */
+.Food{
+  background-color: #5c7051;
+  height: 264px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+  height: 264px;
 }

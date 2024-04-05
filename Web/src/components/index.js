@@ -6,3 +6,5 @@ export{default as Articles} from './Articles/Articles'
 export {default as Products} from './Products/Products'
 
 export {default as ChatRoom} from './ChatRoom/ChatRoom'
+
+export {default as Food} from './Articles/Food'
