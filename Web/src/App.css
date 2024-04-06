@@ -45,8 +45,10 @@
 }
 
 .bgimg {
-  width: 100%;
-  position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    overflow: hidden;
 }
 
 .title {
@@ -64,10 +66,9 @@
 
 /* Feature section */
 .feature-section {
-  background-color: #eef6ed;
+  background-color: #cce3c9;
   height: 100px;
   position: relative;
-  margin-top: 280px;
 }
 
 /* Media queries for responsive image scaling */

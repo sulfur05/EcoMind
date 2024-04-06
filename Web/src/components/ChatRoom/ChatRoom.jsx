@@ -61,6 +61,9 @@ function ChatRoom() {
           <input ref={roomInputRef} />
           <button onClick={() => setRoom(roomInputRef.current.value)}>Enter Chat</button>
         </div>
+        <div className='sign-out'>
+        <button onClick={signUserOut}>Sign Out</button>
+      </div>
         <div className='room-options text-white p-8 rounded-lg shadow-lg mb-40'>
         <h2 className='text-2xl font-semibold mb-4'>Room Options:</h2>
         <ul className='list-disc pl-4'>
@@ -73,9 +76,6 @@ function ChatRoom() {
       </div>
       </div>
       )}
-      <div className='sign-out'>
-        <button onClick={signUserOut}>Sign Out</button>
-      </div>
     </div>
   );
 }
