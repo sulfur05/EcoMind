@@ -17,7 +17,7 @@ const Charities = () => {
         {charity.map((charity, index) => (
           <Card key={index} style={{ width: '18rem', margin: '1rem', backgroundColor: '#eef6ed', display:'flex' , flexDirection:'column'}} className='charity-card'>
             <Card.Body>
-              <Card.Title>{charity.title}</Card.Title>
+              <Card.Title className='charity-title'> {charity.title}</Card.Title>
               {/* Add custom class for description text */}
               <Card.Text style={{
                 fontSize: '0.8rem'
