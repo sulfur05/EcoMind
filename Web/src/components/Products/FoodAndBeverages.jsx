@@ -20,7 +20,7 @@ const foodCompanies = [
 const FoodAndBeverages = () => (
   <div className='bgColor'>
     <Container>
-      <h1 className='mb-4 text-white'>Food and Beverages</h1>
+      <h1 className='mb-4 text-emerald-100'>Food and Beverages</h1>
       <Row>
         {foodCompanies.map((company, index) => (
           <FoodCompanyCard key={index} {...company} />

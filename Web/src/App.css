@@ -22,8 +22,10 @@
 }
 
 .hero {
-  position: relative;
-  top: 0px;
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 /* Hero */
@@ -69,6 +71,7 @@
   background-color: #cce3c9;
   height: 100px;
   position: relative;
+  margin-top:inherit;
 }
 
 /* Media queries for responsive image scaling */
@@ -266,3 +269,4 @@
 .description {
   font-size: 14px; /* Adjust the font size as needed */
 }
+
