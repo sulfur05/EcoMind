@@ -22,7 +22,6 @@ const NavBar = () => {
                 <NavDropdown.Item as={Link} to="/Articles/Food">Food</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/Articles/Home">Home</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/Articles/Fashion">Fashion</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Articles/News">News</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Products" id="basic-nav-dropdown">
                 <NavDropdown.Item as={Link} to="/Products/ClothingandFashion">

@@ -1,14 +1,15 @@
 import React from 'react';
 import arts from './arts';
-const homeArticles = arts.filter((article) => article.category === 'home');
 import { Card, Container, Row } from 'react-bootstrap';
 
-const Homes = () => {
+const fashionArticles = arts.filter((article) => article.category === 'fashion');
+
+const Fashion = () => {
   return (
     <div className='back'>
     <Container >
       <Row>
-        {homeArticles.map((article, index) => (
+        {fashionArticles.map((article, index) => (
           <Card key={index} style={{ width: '18rem', margin: '1rem' }}>
             <Card.Body>
               <Card.Title>{article.title}</Card.Title>
@@ -27,4 +28,4 @@ const Homes = () => {
   );
 };
 
-export default Homes;
+export default Fashion;
