@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
-import { Navbar, Products, Home, Articles, ChatRoom } from './components/index';
+import { NavBar, Products, Home, Articles, ChatRoom } from './components/index';
 
 
 
@@ -10,7 +10,7 @@ const App=()=>{
   return (
     <>
       <BrowserRouter>
-      <Navbar/>
+      <NavBar/>
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/Articles/' element={<Articles/>}/>
