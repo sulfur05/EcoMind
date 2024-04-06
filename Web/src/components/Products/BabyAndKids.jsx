@@ -6,19 +6,19 @@ const babyAndKidsCompanies = [
   {
     name: 'Bumpadum',
     image: 'https://media.istockphoto.com/id/1296538545/photo/baby-cloth-diapers-for-girls.jpg?s=612x612&w=0&k=20&c=fRLuHKSq_nBQv61WPmY51u3Y-wirZZMyVik-e3F430w=',
-    description: 'Description of Bumpadum',
+    description: 'Provides eco-friendly cloth diapers and baby essentials, focusing on comfort and sustainability.',
     link: 'https://www.bumpadum.com/'
   },
   {
     name: 'Tura Turi',
     image: 'https://media.istockphoto.com/id/1395433628/photo/baby-and-child-clothes-toys-in-box-second-hand-apparel-idea.jpg?s=612x612&w=0&k=20&c=4hBDmxe3IrIOPEGWG51PoJbXZY_eVl30_CtpFBYEQTA=',
-    description: 'Description of Tura Turi',
+    description: 'Offers handmade and sustainable toys and accessories for kids, promoting creativity and eco-consciousness.',
     link: 'https://www.turaturi.com/'
   },
   {
     name: 'The Moms Co.',
     image: 'https://media.istockphoto.com/id/1257649082/vector/woman-sitting-on-a-huge-menstrual-cup-with-flowers-and-leaves-eco-protection-for-woman-in.jpg?s=612x612&w=0&k=20&c=NHCOfOcMm1EbK3A8w6FL584I78ZZx8SSA-LXBgCWJyY=',
-    description: 'Description of The Moms Co.',
+    description: 'Specializes in natural and toxin-free baby and mother care products, ensuring safety and wellness.',
     link: 'https://www.themomsco.com/'
   }
 ];
@@ -45,7 +45,7 @@ const BabyAndKidsCompanyCard = ({ name, image, description, link }) => (
         </div>
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Card.Text className="card-text">{description}</Card.Text>
+          <Card.Text className="card-text text-center" style={{ color: '#333' }}>{description}</Card.Text>
           <a href={link} target="_blank" rel="noopener noreferrer" className="card-link">Visit Website</a>
         </Card.Body>
       </Card>

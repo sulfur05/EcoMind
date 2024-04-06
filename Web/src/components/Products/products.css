@@ -3,6 +3,10 @@
 .bgColor {
     background-color: #042B23; /* Set your desired background color */
     padding: 20px;
+    min-height: 100vh; /* Set minimum height to cover the entire viewport */
+    display: flex; /* Use flexbox to center content vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
   }
   
   .card-image {
@@ -15,7 +19,6 @@
     height: auto; /* Maintain aspect ratio and prevent distortion */
     display: block; /* Ensure the image is displayed as a block element */
     margin: 0 auto; /* Center the image horizontally */
-    padding: 40px;
   }
   
   .card-text {
@@ -24,9 +27,16 @@
 
   .card-wrapper {
     transition: transform 0.3s ease; /* Add transition for smooth expansion */
+    display:flex;
+    justify-content: center;
+    margin:20px;
   }
   
   .card-wrapper:hover {
     transform: scale(1.05); /* Expand the card on hover */
+  }
+
+  .card-wrapper .card{
+    background-color: rgba(203, 225, 215, 0.9);
   }
   
