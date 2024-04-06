@@ -1,0 +1,69 @@
+.main{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.CYiP_S6sucUgBXEmyiv8IgAAAA&pid=Api&P=0&h=180'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    overflow: hidden;
+}
+.room {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:rgba(9, 66, 54, 0.5);
+    color:white;
+    width:70%;
+  }
+  
+  .room label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: xx-large;
+  }
+  
+  .room input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #067c68;
+    border-radius: 10px;
+    color:black;
+  }
+  
+  .room button {
+    margin:10px;
+    padding: 10px 12px;
+    background-color: #166e52;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .room button:hover {
+    background-color: #045c3d;
+  }
+  
+  .leave-room {
+    margin: 20px auto;
+    text-align: center;
+    padding: 8px 12px;
+    color: #ffffff;
+    border: 1px solid rgb(2, 30, 14);
+    border-radius: 10px;
+    cursor: pointer;
+    width:20%;
+    background-color: #03524e;
+  }
+  .leave-room:hover{
+    background-color: #03423f;
+  }
+  
+  .sign-out {
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+  }
+  
