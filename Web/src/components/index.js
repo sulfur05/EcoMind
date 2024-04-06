@@ -21,3 +21,4 @@ export { default as HomeAndLifestyle } from './Products/HomeAndLifestyle';
 export { default as FoodAndBeverages } from './Products/FoodAndBeverages';
 export { default as TechAndGadgets } from './Products/TechAndGadgets';
 export { default as BabyAndKids } from './Products/BabyAndKids';
+export {default as Charities} from './Charities/Charities'

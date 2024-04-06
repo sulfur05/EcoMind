@@ -21,10 +21,7 @@
   position: absolute;
 }
 
-.hero {
-  position: relative;
-  top: 0px;
-}
+
 
 /* Hero */
 
@@ -118,63 +115,6 @@
 
 /* Hero */
 
-.title img {
-  width: 400px; /* Adjust for larger screens if needed */
-}
-
-.title h1 {
-  text-align: left;
-  font-size: 7rem;
-}
-
-.container p {
-  text-align: left;
-  font-size: 1.5rem;
-  color: white;
-  margin-left: 5px;
-}
-
-.bgimg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  overflow: hidden;
-  position: absolute;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
-  margin-top: 200px; /* Adjust margin-top for desired hero height */
-  position: absolute;
-}
-
-.hero {
-  position: fixed;
-}
-
-/* eef6ed */
-
-/* Feature section */
-.feature-section {
-  background-color: #eef6ed;
-  height: 700px;
-  position: relative;
-  margin-top: 18em;
-}
-
-/* Media queries for responsive image scaling */
-@media (max-width: 768px) {
-  .bgimg {
-    height: 500px;
-    width: 390px;
-  }
-
-  .title img {
-    width: 200px;
-    margin-top: -100px;
-  }
-}
 
 /* 5c7051 */
 .Food{
@@ -225,43 +165,127 @@
   background-color: #2b6a5c;
 }
 
-/*more styling for feature setion*/
-.feature-section h2{
-  text-align: left;
-  color: #2b6a5c;
-  margin-top: 7em;
-}
-
-.feature{
-  /* margin-top: 1000px; */
-  background-color: #eef6ed;
-  position: relative;
-  margin-top: 800px;
-}
-
-.feature-row {
-  margin-top: 3rem;
-}
-
-.feature-item {
-  border: 1px solid #ddd;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-
 
 .back{
   background-color: #042b23;
-  height: 100vh;
+  height: 100%;
+}
+
+.back2{
+  background-color: #042b23;
+  height: 100%;
 }
 @media (max-width: 768px) {
   .back {
     height: 100%;
   }
+  .back2 {
+    height: 100%;
+  }
 }
 
 .description {
-  font-size: 14px; /* Adjust the font size as needed */
+  font-size: 14px; 
 }
+
+/*HOME CSS*/
+.hero-img {
+  height: calc(100vh - 20px); 
+  position: relative;
+}
+
+.hero-content{
+  color: white;
+  position: absolute;
+  margin-top: -550px;
+  margin-left: 100px;
+}
+
+.hero-content h1{
+  text-align: left;
+  font-size: 10em;
+}
+
+.hero-content p{
+  text-align: left;
+  font-size: 2em;
+}
+
+
+.features{
+  position: relative;
+}
+
+.charity-heading h1{
+  color: #a2beb8;
+  text-align: left;
+  font-size: 70px;
+
+}
+
+
+.charity-heading p{
+  color: #82aca3;
+}
+
+.card-button{
+  background-color: #2b6a5c;
+  border-radius: 20px;
+  height: 30px;
+  width: 80px;
+  color: white;
+  text-decoration: none;
+  box-shadow: black inset;
+
+}
+
+.description{
+  height: 15em;
+}
+
+/* .btnn{
+  margin-bottom: 0px;
+} */
+
+div.article.card{
+  height: 17rem;
+}
+
+div.card-body
+{
+  height: 1rem;
+}
+
+.card-text{
+  height: 6rem;
+}
+
+div.card-title.h5{
+  height: 5rem;
+}
+
+div.charity-card.card{
+  height: 22rem;
+}
+
+.charity-description.card-text{
+  height: 10rem;
+  font-size: 5rem;
+}
+
+.Articles-heading{
+  text-align: left;
+  color:#bbdfd8 ;
+}
+
+.Articles-heading p{
+  text-align: left;
+  color: #348978;
+}
+
+/* .highlight{
+  color: black;
+  background-color: rgb(206, 254, 164);
+  border-radius: 10px;
+  height: 10px;
+} */

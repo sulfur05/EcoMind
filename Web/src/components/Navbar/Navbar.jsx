@@ -11,7 +11,7 @@ const NavBar = () => {
     <>
        <Navbar expand="lg" bg="dark" variant="dark" className="navv">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src='/images/logo.png' className='nav-logo' />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,6 +44,7 @@ const NavBar = () => {
                 </NavDropdown.Item>
               </NavDropdown>
               <Link to="/ChatRoom" className="nav-link">Chat Forum</Link>
+              <Link to="/Charities" className="nav-link">Donate to Charities</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

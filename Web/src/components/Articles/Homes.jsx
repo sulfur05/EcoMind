@@ -7,9 +7,13 @@ const Homes = () => {
   return (
     <div className='back'>
     <Container >
+    <div className='Articles-heading'>
+      <h2>Learn about incorporating sustainability to your homes!</h2>
+      <p>The articles below contain information regarding organic cleaning and much more</p>
+      </div>
       <Row>
         {homeArticles.map((article, index) => (
-          <Card key={index} style={{ width: '18rem', margin: '1rem' }}>
+          <Card key={index} style={{ width: '18rem', margin: '1rem' ,backgroundColor: '#eef6ed'}} className='article'>
             <Card.Body>
               <Card.Title>{article.title}</Card.Title>
               {/* Add custom class for description text */}
@@ -17,7 +21,7 @@ const Homes = () => {
                 fontSize: '0.8rem'
               }} 
               className='text-dark text-sm description'>{article.desc}</Card.Text>
-              <Card.Link href={article.link}>Read here</Card.Link>
+              <Card.Link className='btnn' href={article.link}><button className='card-button'>Read</button></Card.Link>
             </Card.Body>
           </Card>
         ))}

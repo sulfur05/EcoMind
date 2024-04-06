@@ -6,13 +6,7 @@ var arts = [
       desc: 'This is an article about food waste. It discusses how one-third of all food produced is never eaten...',
       link: 'https://blog.education.nationalgeographic.org/2016/02/17/5-things-you-can-do-about-food-waste/'
     },
-    {
-      title: 'The Ultimate Guide to Meal Planning for Beginners',
-      category: 'food',
-      sourceName: 'BBC Good Food',
-      desc: 'This article offers tips and tricks to get you started with meal planning. Learn...', // Truncated description
-      link: 'https://www.bbcgoodfood.com/howto/guide/10-top-tips-to-make-meal-prep-easier'
-    },
+    
     {
       title: 'How to Eat Less Meat (and Still Love Food)',
       category: 'food',

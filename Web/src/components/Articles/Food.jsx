@@ -6,10 +6,15 @@ import { Card, Container, Row } from 'react-bootstrap';
 const Food = () => {
   return (
     <div className='back'>
+     
     <Container >
+      <div className='Articles-heading'>
+      <h2>Articles to teach you how about <span className='highlight'>sustainable</span> and <span className='highlight'>responsible consumption of food!</span></h2>
+      <p>Read the below articles to gain info about maximum utillisation of food and to learn about different types of food </p>
+      </div>
       <Row>
         {foodArticles.map((article, index) => (
-          <Card key={index} style={{ width: '18rem', margin: '1rem' }}>
+          <Card key={index} style={{ width: '18rem', margin: '1rem' ,backgroundColor: '#eef6ed'}} className='article'>
             <Card.Body>
               <Card.Title>{article.title}</Card.Title>
               {/* Add custom class for description text */}
@@ -17,7 +22,7 @@ const Food = () => {
                 fontSize: '0.8rem'
               }} 
               className='text-dark text-sm description'>{article.desc}</Card.Text>
-              <Card.Link href={article.link}>Read here</Card.Link>
+              <Card.Link className='btnn' href={article.link}><button className='card-button'>Read</button></Card.Link>
             </Card.Body>
           </Card>
         ))}
