@@ -26,7 +26,7 @@ const techCompanies = [
 const TechAndGadgets = () => (
   <div className='bgColor'>
     <Container>
-      <h1 className='mb-4 text-white'>Tech and Gadgets</h1>
+      <h1 className='mb-4 text-emerald-100'>Tech and Gadgets</h1>
       <Row>
         {techCompanies.map((company, index) => (
           <TechCompanyCard key={index} {...company} />

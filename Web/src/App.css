@@ -21,7 +21,10 @@
   position: absolute;
 }
 
-
+.hero {
+  position: relative;
+  top: 0px;
+}
 
 /* Hero */
 
@@ -42,8 +45,10 @@
 }
 
 .bgimg {
-  width: 100%;
-  position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    overflow: hidden;
 }
 
 .title {
@@ -61,10 +66,10 @@
 
 /* Feature section */
 .feature-section {
-  background-color: #eef6ed;
+  background-color: #cce3c9;
   height: 100px;
   position: relative;
-  margin-top: 280px;
+  margin-top:inherit;
 }
 
 /* Media queries for responsive image scaling */
@@ -185,107 +190,5 @@
 }
 
 .description {
-  font-size: 14px; 
+  font-size: 14px; /* Adjust the font size as needed */
 }
-
-/*HOME CSS*/
-.hero-img {
-  height: calc(100vh - 20px); 
-  position: relative;
-}
-
-.hero-content{
-  color: white;
-  position: absolute;
-  margin-top: -550px;
-  margin-left: 100px;
-}
-
-.hero-content h1{
-  text-align: left;
-  font-size: 10em;
-}
-
-.hero-content p{
-  text-align: left;
-  font-size: 2em;
-}
-
-
-.features{
-  position: relative;
-}
-
-.charity-heading h1{
-  color: #a2beb8;
-  text-align: left;
-  font-size: 70px;
-
-}
-
-
-.charity-heading p{
-  color: #82aca3;
-}
-
-.card-button{
-  background-color: #2b6a5c;
-  border-radius: 20px;
-  height: 30px;
-  width: 80px;
-  color: white;
-  text-decoration: none;
-  box-shadow: black inset;
-
-}
-
-.description{
-  height: 15em;
-}
-
-/* .btnn{
-  margin-bottom: 0px;
-} */
-
-div.article.card{
-  height: 17rem;
-}
-
-div.card-body
-{
-  height: 1rem;
-}
-
-.card-text{
-  height: 6rem;
-}
-
-div.card-title.h5{
-  height: 5rem;
-}
-
-div.charity-card.card{
-  height: 22rem;
-}
-
-.charity-description.card-text{
-  height: 10rem;
-  font-size: 5rem;
-}
-
-.Articles-heading{
-  text-align: left;
-  color:#bbdfd8 ;
-}
-
-.Articles-heading p{
-  text-align: left;
-  color: #348978;
-}
-
-/* .highlight{
-  color: black;
-  background-color: rgb(206, 254, 164);
-  border-radius: 10px;
-  height: 10px;
-} */
