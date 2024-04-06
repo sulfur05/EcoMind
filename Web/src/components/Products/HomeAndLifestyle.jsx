@@ -6,19 +6,19 @@ const homeCompanies = [
   {
     name: 'Brown Living',
     image: 'https://media.istockphoto.com/id/1166945451/photo/wooden-soap-dish-soap-eucalyptus-over-green-background-zero-waste-natural-organic-bathroom.jpg?s=612x612&w=0&k=20&c=rfKXuoPfN4Suz5tNVwIlBS220RowKAt00upmQ51ZP3g=',
-    description: 'Description of Brown Living',
+    description: 'Focuses on sustainable and eco-friendly home decor and lifestyle products at affordable prices.',
     link: 'https://www.brownliving.in/'
   },
   {
     name: 'The Better Home',
     image: 'https://media.istockphoto.com/id/1494734880/photo/modern-minimal-white-fabric-bolster-back-corner-sofa-cushion-wooden-side-table-on-japanese.jpg?s=612x612&w=0&k=20&c=MLxTqFQi_ipxcA8lM_ZjtmKR6ssv45Z7z3s37ACulw4=',
-    description: 'Description of The Better Home',
+    description: 'Offers environmentally friendly home cleaning and care products that are safe and effective.',
     link: 'https://www.thebetterhome.com/'
   },
   {
     name: 'Greenfeels',
     image: 'https://media.istockphoto.com/id/1165099786/photo/cotton-bag-glass-jar-green-leaves-and-recycled-tableware-top-view-zero-waste-eco-friendly.jpg?s=612x612&w=0&k=20&c=WeWYYa0f5iB73X-2ibZWE1Tfga7cIUWUBSt-0rKkuyw=',
-    description: 'Description of Greenfeels',
+    description: 'Provides sustainable and stylish home and lifestyle products, promoting a green and conscious lifestyle.',
     link: 'https://www.greenfeels.in/'
   }
 ];
@@ -45,7 +45,7 @@ const HomeCompanyCard = ({ name, image, description, link }) => (
         </div>
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Card.Text className="card-text">{description}</Card.Text>
+          <Card.Text className="card-text text-center" style={{ color: '#333' }}>{description}</Card.Text>
           <a href={link} target="_blank" rel="noopener noreferrer" className="card-link">Visit Website</a>
         </Card.Body>
       </Card>

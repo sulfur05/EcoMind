@@ -6,19 +6,19 @@ const techCompanies = [
   {
     name: 'Leaf Wearables',
     image: 'https://media.istockphoto.com/id/1335669510/vector/vector-isometric-devices-set.jpg?s=612x612&w=0&k=20&c=DBjsHSWGxGDkKrWTFus2CvvCDUHhksziuj8cN4FZKwo=',
-    description: 'Description of Leaf Wearables',
+    description: 'Specializes in wearable technology, including fitness trackers and smartwatches, focusing on affordability and innovation',
     link: 'https://www.leafstudios.in/'
   },
   {
     name: 'Ather Energy',
     image: 'https://media.istockphoto.com/id/1074903614/vector/electric-scooter-for-sharing.jpg?s=612x612&w=0&k=20&c=G9W93pPqXLlPCmg8nOOn-lU5ndg2Y3WJpTamg_SYnPE=',
-    description: 'Description of Ather Energy',
+    description: 'Electric vehicle manufacturer known for producing smart and eco-friendly electric scooters.',
     link: 'https://www.atherenergy.com/'
   },
   {
     name: 'GreenSutra',
     image: 'https://media.istockphoto.com/id/1299953733/photo/reduce-carbon-dioxide-emissions-to-limit-global-warming-and-climate-change-commitment-to.jpg?s=612x612&w=0&k=20&c=mBQSJP0j-0odUtgN9jCVlZJQaD6hVWVviZaV-zOrOAM=',
-    description: 'Description of GreenSutra',
+    description: 'Offers eco-friendly and sustainable tech products and solutions, promoting environmental consciousness.',
     link: 'https://www.greensutra.in/'
   }
 ];
@@ -45,7 +45,7 @@ const TechCompanyCard = ({ name, image, description, link }) => (
         </div>
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Card.Text className="card-text">{description}</Card.Text>
+          <Card.Text className="card-text text-center" style={{ color: '#333' }}>{description}</Card.Text>
           <a href={link} target="_blank" rel="noopener noreferrer" className="card-link">Visit Website</a>
         </Card.Body>
       </Card>
