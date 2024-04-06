@@ -101,53 +101,132 @@
   text-align: center;
 }
 
-.nav-logo{
+.nav-logo {
   width: 30px;
 }
 
-.navv{
+.navv {
   background-color: black !important;
 }
 
-.image{
+.image {
   position: absolute;
 }
 
-.hero{
+.hero {
   position: relative;
   top: 0px;
 }
 
 /* Hero */
 
-
-.title img{
-  /* height: 80px; */
-  width: 400px;
+.title img {
+  width: 400px; /* Adjust for larger screens if needed */
 }
 
-.title h1{
+.title h1 {
   text-align: left;
   font-size: 7rem;
 }
 
-.container p{
+.container p {
   text-align: left;
-  /* margin-top: -20px; */
   font-size: 1.5rem;
   color: white;
   margin-left: 5px;
 }
 
-.bgimg{
+.bgimg {
   width: 100%;
   position: absolute;
 }
 
-.title{
+.title {
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 200px; /* Adjust margin-top for desired hero height */
   position: relative;
-  /* margin-top: 20px; */
+}
+
+.hero {
+  position: fixed;
+}
+
+/* eef6ed */
+
+/* Feature section */
+.feature-section {
+  background-color: #eef6ed;
+  height: 700px;
+  position: relative;
+  margin-top: 20em;
+}
+
+/* Media queries for responsive image scaling */
+@media (max-width: 768px) {
+  .bgimg {
+    height: 500px;
+    width: 390px;
+  }
+
+  .title img {
+    width: 200px;
+    margin-top: -100px;
+  }
+}
+
+/* 5c7051 */
+.Food{
+  background-color: #042b23;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card {
+  height: 150px;
+  width: calc(25% - 20px); /* Adjust width to fit four cards in a row with 20px gap */
+  flex: 1 0 auto; /* Allow cards to grow and shrink as needed */
+  background-color: #2b6a5c; /* Set background color of the cards */
+}
+
+.container2 {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row */
+  gap: 20px;
+  justify-content: center; /* Center cards horizontally */
+}
+
+.card-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 2em; */
+  gap: 20px; /* Add a 20px gap between cards */
+}
+
+.container2 {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+  padding: 0 20px; /* Add padding to prevent cards from sticking to the edges */
+  margin-top: 2em;
+}
+
+/* Change dropdown selection color */
+.dropdown-item.click, .dropdown-item:active {
+  color: #ffffff;
+  background-color: #2b6a5c;
+}
+
+/*more styling for feature setion*/
+.feature-section h2{
+  text-align: left;
+  color: #2b6a5c;
+  /* margin-top: 7em; */
 }
