@@ -13,6 +13,7 @@ export {default as ChatRoom} from './ChatRoom/ChatRoom'
 export {default as Food} from './Articles/Food'
 // export {default as Food2} from './Articles/Food2'
 export {default as Homes} from './Articles/Homes'
+export {default as Fashion} from './Articles/Fashion'
 
 export { default as ClothingAndFashion } from './Products/ClothingAndFashion';
 export { default as BeautyAndPersonalCare } from './Products/BeautyAndPersonalCare';

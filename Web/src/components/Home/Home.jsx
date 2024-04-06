@@ -1,9 +1,9 @@
 import React from 'react'
-
+// import EcomindFeatures from './Feature'
 const Home = () => {
   return (
     <>
-    <div className='hero'></div>
+    {/* <div className='hero'> */}
     <img src='images/bg.jpg' className='bgimg'></img>
     <div className='container'>
 
@@ -12,16 +12,10 @@ const Home = () => {
         <p>sustainability made easy </p>
      </div>
     </div>
+    
+    {/* </div> */}
+    
 
-    <div className='feature-section'>
-        <div className='container'>
-            <h2>Our Features</h2>
-        <div className='cards'>
-
-        </div>
-        </div>
-        
-    </div>
     </>
   )
 }
