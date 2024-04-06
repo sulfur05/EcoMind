@@ -10,7 +10,11 @@ const Charities = () => {
        
     <Container >
     <div className='charity-heading'>
-            <h1>Charities you can donate to !</h1>
+            <h1 style={{
+              color: '#5d9388',
+              fontSize:'3rem',
+              textAlign: 'left'
+            }}>Charities you can donate to !</h1>
             <p>Choose the motive you would like to support and donate towards their hardwork!</p> 
             </div>
       <Row>
