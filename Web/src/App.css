@@ -1,4 +1,6 @@
+
 /* app.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -84,11 +86,68 @@
 /* 5c7051 */
 .Food{
   background-color: #5c7051;
-  height: ;
+  /* height: ; */
   display: flex;
   flex-direction: row;
 }
 
 .card{
-  height: 264px;
+  height: 264px;}
+
+#root{
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.nav-logo{
+  width: 30px;
+}
+
+.navv{
+  background-color: black !important;
+}
+
+.image{
+  position: absolute;
+}
+
+.hero{
+  position: relative;
+  top: 0px;
+}
+
+/* Hero */
+
+
+.title img{
+  /* height: 80px; */
+  width: 400px;
+}
+
+.title h1{
+  text-align: left;
+  font-size: 7rem;
+}
+
+.container p{
+  text-align: left;
+  /* margin-top: -20px; */
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 5px;
+}
+
+.bgimg{
+  width: 100%;
+  position: absolute;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  position: relative;
+  /* margin-top: 20px; */
 }
