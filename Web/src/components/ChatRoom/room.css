@@ -3,16 +3,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     height:100vh;
-    overflow: hidden;
+    margin:0;
 }
 .room {
     max-width: 800px;
-    margin: 50px auto;
+    margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color:rgba(9, 66, 54, 0.5);
+    background-color:#09423680;
     color:white;
     width:70%;
   }
@@ -70,6 +70,6 @@
   .room-options{
     width:70%;
     margin:40px auto;
-    background-color: #166e52;
+    background-color: #29755d;
 }
   
