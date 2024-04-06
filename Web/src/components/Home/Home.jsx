@@ -14,9 +14,13 @@ const Home = () => {
     </div>
 
     <div className='feature-section'>
+        <div className='container'>
+            <h2>Our Features</h2>
         <div className='cards'>
 
         </div>
+        </div>
+        
     </div>
     </>
   )
