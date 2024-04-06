@@ -26,7 +26,7 @@ const babyAndKidsCompanies = [
 const BabyAndKids = () => (
   <div className='bgColor'>
     <Container>
-      <h1 className='mb-4 text-white'>Baby and Kids</h1>
+      <h1 className='mb-4 text-emerald-100'>Baby and Kids</h1>
       <Row>
         {babyAndKidsCompanies.map((company, index) => (
           <BabyAndKidsCompanyCard key={index} {...company} />

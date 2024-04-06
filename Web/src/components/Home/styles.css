@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .page1 img{
+    content:url('images/page3(phone).png')
+  }
+  .page2 img{
+    content:url('images/page4(phone).jpg')
+  }
+}
