@@ -1,0 +1,30 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.CYiP_S6sucUgBXEmyiv8IgAAAA&pid=Api&P=0&h=180'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .auth p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color:white;
+  }
+  
+  .auth button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #e0eae9;
+    color: #077c61;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .auth button:hover {
+    background-color: #c2eee9;
+  }
+  

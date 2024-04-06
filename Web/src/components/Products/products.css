@@ -1,3 +1,32 @@
-.bgColor{
-    background-color: #5C7051;
-}
+/* products.css */
+
+.bgColor {
+    background-color: #042B23; /* Set your desired background color */
+    padding: 20px;
+  }
+  
+  .card-image {
+    text-align: center; /* Center the image */
+    margin-bottom: 10px; /* Add some space below the image */
+  }
+  
+  .card-image img {
+    max-width: 100%; /* Set the maximum width of the image to 100% */
+    height: auto; /* Maintain aspect ratio and prevent distortion */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 40px;
+  }
+  
+  .card-text {
+    color: #333; /* Set the text color */
+  }
+
+  .card-wrapper {
+    transition: transform 0.3s ease; /* Add transition for smooth expansion */
+  }
+  
+  .card-wrapper:hover {
+    transform: scale(1.05); /* Expand the card on hover */
+  }
+  
