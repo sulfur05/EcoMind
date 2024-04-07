@@ -33,7 +33,7 @@ Technologies Used
 
 
 Installation
-1.	Clone the repository: git clone 
+1.	Clone the repository: git clone https://github.com/sulfur05/EcoMind.git
 2.	Navigate to the project directory: cd Web
 3.	Install dependencies: npm install
 
