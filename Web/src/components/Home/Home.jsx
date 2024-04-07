@@ -83,7 +83,7 @@ const Home = () => {
           </Container>
         </div>   
       </div>
-    <div className="page1 min-h-screen flex flex-col items-center justify-center bg-green-950">
+    <div className="page1 min-h-screen flex flex-col items-center justify-center bgColor">
         <div className="m-5 w-3/3">
           <img
             src='images/page3.png'
@@ -92,7 +92,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="page2 min-h-screen flex flex-col items-center justify-center bg-green-950">
+      <div className="page2 min-h-screen flex flex-col items-center justify-center bgColor">
         <div className="m-5 w-3/3">
           <img
             src='images/page4.png'
