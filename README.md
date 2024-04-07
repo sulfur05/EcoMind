@@ -24,12 +24,12 @@ Features
 
 
 Technologies Used
-1.Vite
-2.HTML
-3.CSS
-4.JavaScript
-5.React
-6.Firebase (for chat forum)
+1.  Vite
+2.  HTML
+3.  CSS
+4.  JavaScript
+5.  React
+6.  Firebase (for chat forum)
 
 
 Installation
