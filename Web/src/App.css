@@ -202,7 +202,8 @@
 }
 
 .article-title.card-title{
-  height: 3rem;
+  height: 5rem;
+  text-align: left;
 }
 
 .article-description.card-text{
