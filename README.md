@@ -3,12 +3,12 @@ Welcome to EcoMind, your gateway to a sustainable lifestyle! This project aims t
 
 
 Table of Contents
-	Overview
-  Features
-  Technologies Used
-  Installation
-  Usage
-	Contributing
+1.	Overview
+2.	Features
+3.	Technologies Used
+4.	Installation
+5.	Usage
+6.	Contributing
 
 
 Overview
@@ -16,20 +16,20 @@ EcoMind is a web platform that offers a curated directory of sustainable brands 
 
 
 Features
-	Discover Ethical Brands: Explore our curated directory of sustainable brands creating positive change.
-	Connect with Community: Join our vibrant community to share ideas, collaborate, and make a real impact.
-	Learn and Grow: Access tips, guides, and tutorials for easy ways to live a more sustainable life.
-	Rewards of Sustainability: Experience the joy of supporting ethical brands and making a difference.
-	Advocate for Change: Join us in advocating for a greener, fairer, and brighter future.
+1.	Discover Ethical Brands: Explore our curated directory of sustainable brands creating positive change.
+2.	Connect with Community: Join our vibrant community to share ideas, collaborate, and make a real impact.
+3.	Learn and Grow: Access tips, guides, and tutorials for easy ways to live a more sustainable life.
+4.	Rewards of Sustainability: Experience the joy of supporting ethical brands and making a difference.
+5.	Advocate for Change: Join us in advocating for a greener, fairer, and brighter future.
 
 
 Technologies Used
-	Vite
-	HTML
-	CSS
-	JavaScript
-	React
-	Firebase (for chat forum)
+1.Vite
+2.HTML
+3.CSS
+4.JavaScript
+5.React
+6.Firebase (for chat forum)
 
 
 Installation
