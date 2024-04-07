@@ -27,7 +27,7 @@ const Charities = () => {
                 fontSize: '0.8rem'
               }} 
               className='text-dark  charity-description'>{charity.desc}</Card.Text>
-              <Card.Link className='btnn' href={charity.link}><button className='card-button'>Donate</button></Card.Link>
+              <Card.Link className='btnn' href={charity.link} target='_blank'><button className='card-button'>Donate</button></Card.Link>
             </Card.Body>
           </Card>
         ))}

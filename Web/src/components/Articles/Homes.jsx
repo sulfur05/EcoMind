@@ -23,7 +23,7 @@ const Homes = () => {
                 fontSize: '0.8rem'
               }} 
               className='text-dark text-sm article-description'>{article.desc}</Card.Text>
-              <Card.Link className='btnn' href={article.link}><button className='card-button'>Read</button></Card.Link>
+              <Card.Link className='btnn' href={article.link} target='_blank'><button className='card-button'>Read</button></Card.Link>
             </Card.Body>
           </Card>
         ))}
